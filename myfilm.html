@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My favourite film</title>
+		<meta charset="UTF-8">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+	</head>
+	<body>
+		<h5>My favourite film</h5>
+		<button><p id="div1">tu</p></button>
+		
+		<script>
+			$(document).ready(function(){
+		$("button").click(function(){
+			$("#div1").load("myfilm.txt #p1");
+		});
+	});
+			
+		</script>
+	</body>
+</html>
